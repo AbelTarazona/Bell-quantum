@@ -1,0 +1,13 @@
+:: files ::
+Bell.qs
+:: qsim ::
+:: references ::
+/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Intrinsic.dll
+/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll
+/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll
+/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulators.dll
+/Users/abeltarazona/.nuget/packages/microsoft.quantum.standard/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Standard.dll
+/usr/local/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+:: command ::
+dotnet "/Users/abeltarazona/.nuget/packages/microsoft.quantum.development.kit/0.7.1905.3109/build/../tools/qsc/qsc.dll" build --format MsBuild  --input "Bell.qs" --references "/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Intrinsic.dll" "/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll" "/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll" "/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll" "/Users/abeltarazona/.nuget/packages/microsoft.quantum.simulators/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Simulators.dll" "/Users/abeltarazona/.nuget/packages/microsoft.quantum.standard/0.7.1905.3109/lib/netstandard2.0/Microsoft.Quantum.Standard.dll" "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" --output obj/qsharp/src/

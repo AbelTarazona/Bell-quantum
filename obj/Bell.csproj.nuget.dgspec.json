@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abeltarazona/Downloads/Bell/Bell.csproj": {}
+  },
+  "projects": {
+    "/Users/abeltarazona/Downloads/Bell/Bell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abeltarazona/Downloads/Bell/Bell.csproj",
+        "projectName": "Bell",
+        "projectPath": "/Users/abeltarazona/Downloads/Bell/Bell.csproj",
+        "packagesPath": "/Users/abeltarazona/.nuget/packages/",
+        "outputPath": "/Users/abeltarazona/Downloads/Bell/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/abeltarazona/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Development.Kit": {
+              "target": "Package",
+              "version": "[0.7.1905.3109, )"
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.7.1905.3109, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
